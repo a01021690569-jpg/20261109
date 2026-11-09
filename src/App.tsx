@@ -208,6 +208,7 @@ function Hero({ openModal }: { openModal: (content: ModalContent) => void }) {
         <DecorativeImage src="76de9.svg" className="bubble h-bubble-four" />
         <DecorativeImage src="c798b.svg" className="bubble h-bubble-five" />
         <ProductBottle className="hero-product" product={current.product} />
+        src="/assets/화장품1.png"
         <small className="volume">200 ml / 6.76 fl. oz.</small>
       </div>
     </section>
