@@ -198,9 +198,6 @@ function Hero({ openModal }: { openModal: (content: ModalContent) => void }) {
       </div>
       <div className="hero-art" aria-label={`${current.product.replace("\n", " ")} 제품 이미지`}>
         <img src="/assets/ main.png" className="hero-main-image" alt="화장품 메인 이미지" />
-        <small className="volume">200 ml / 6.76 fl. oz.</small>
-      </div>
-    </section>
   );
 }
 
