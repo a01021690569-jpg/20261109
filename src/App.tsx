@@ -198,16 +198,6 @@ function Hero({ openModal }: { openModal: (content: ModalContent) => void }) {
       </div>
       <div className="hero-art" aria-label={`${current.product.replace("\n", " ")} 제품 이미지`}>
         <img src="/assets/ main.png" className="hero-main-image" alt="화장품 메인 이미지" />
-        <DecorativeImage src="61582.svg" className="hero-glow" />
-        <DecorativeImage src="49720.svg" className="hero-reflection" />
-        <DecorativeImage src="d1149.svg" className="leaf hero-leaf-one" />
-        <DecorativeImage src="b7c27.svg" className="leaf hero-leaf-two" />
-        <DecorativeImage src="18370.svg" className="leaf hero-leaf-three" />
-        <DecorativeImage src="a88b2.svg" className="bubble h-bubble-one" />
-        <DecorativeImage src="9c637.svg" className="bubble h-bubble-two" />
-        <DecorativeImage src="8208e.svg" className="bubble h-bubble-three" />
-        <DecorativeImage src="76de9.svg" className="bubble h-bubble-four" />
-        <DecorativeImage src="c798b.svg" className="bubble h-bubble-five" />
         <small className="volume">200 ml / 6.76 fl. oz.</small>
       </div>
     </section>
