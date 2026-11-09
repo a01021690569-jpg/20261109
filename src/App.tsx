@@ -149,7 +149,8 @@ function Header({
         >
           <i />
         </button>
-}
+        </div>
+      </div>
 
 function Hero({ openModal }: { openModal: (content: ModalContent) => void }) {
   const [slide, setSlide] = useState(0);
