@@ -161,12 +161,8 @@ function Hero({ openModal }: { openModal: (content: ModalContent) => void }) {
   return (
     <section className="hero" id="home">
       <div className="hero-copy">
-        {/* 텍스트 및 버튼 관련 코드들... */}
-      </div>
-
-      {/* 🔥 화장품 메인 이미지는 바로 이 위치(Hero 컴포넌트 내부)에 있어야 합니다! */}
       <div className="hero-art" aria-label="화장품 메인 이미지">
-        <img src="/assets/cosmetic-main.png" className="hero-main-image" alt="화장품 메인 이미지" />
+      <img src="/assets/cosmetic-main.png" className="hero-main-image" alt="화장품 메인 이미지" />
       </div>
     </section>
   );
