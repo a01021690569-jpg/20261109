@@ -197,6 +197,7 @@ function Hero({ openModal }: { openModal: (content: ModalContent) => void }) {
         </div>
       </div>
       <div className="hero-art" aria-label={`${current.product.replace("\n", " ")} 제품 이미지`}>
+        <DecorativeImage src="/assets/화장품1.png"className="hero-reflection" />
         <DecorativeImage src="61582.svg" className="hero-glow" />
         <DecorativeImage src="49720.svg" className="hero-reflection" />
         <DecorativeImage src="d1149.svg" className="leaf hero-leaf-one" />
@@ -208,7 +209,6 @@ function Hero({ openModal }: { openModal: (content: ModalContent) => void }) {
         <DecorativeImage src="76de9.svg" className="bubble h-bubble-four" />
         <DecorativeImage src="c798b.svg" className="bubble h-bubble-five" />
         <ProductBottle className="hero-product" product={current.product} />
-        <DecorativeImage src="/assets/화장품1.png"className="hero-reflection" />
         <small className="volume">200 ml / 6.76 fl. oz.</small>
       </div>
     </section>
