@@ -195,8 +195,16 @@ function Hero({ openModal }: { openModal: (content: ModalContent) => void }) {
             <b>›</b>
           </button>
         </div>
-      <div className="hero-art" aria-label={`${current.product.replace("\n", " ")} 제품 이미지`}>
+      </div>
+      
+      {/* 🔥 여기가 첫 화면의 이미지 영역입니다 */}
+      <div className="hero-art" aria-label="화장품 메인 이미지">
         <img src="/assets/cosmetic-main.png" className="hero-main-image" alt="화장품 메인 이미지" />
+        <DecorativeImage src="61582.svg" className="hero-glow" />
+        <DecorativeImage src="49720.svg" className="hero-reflection" />
+        <small className="volume">200 ml / 6.76 fl. oz.</small>
+      </div>
+    </section>
   );
 }
 
