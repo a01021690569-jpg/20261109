@@ -197,6 +197,7 @@ function Hero({ openModal }: { openModal: (content: ModalContent) => void }) {
         </div>
       </div>
       <div className="hero-art" aria-label={`${current.product.replace("\n", " ")} 제품 이미지`}>
+        <img src="/assets/ main.png" className="hero-main-image" alt="화장품 메인 이미지" />
         <DecorativeImage src="61582.svg" className="hero-glow" />
         <DecorativeImage src="49720.svg" className="hero-reflection" />
         <DecorativeImage src="d1149.svg" className="leaf hero-leaf-one" />
@@ -242,19 +243,7 @@ function About({ openModal }: { openModal: (content: ModalContent) => void }) {
             body: "자연의 순수함과 검증된 성분을 조화롭게 담아, 예민한 피부도 매일 부담 없이 사용할 수 있는 스킨케어를 제안합니다.",
           })
         }
-      />
-      <div className="about-art">
-        <img src="/assets/ main.png" className="hero-main-image" alt="화장품 메인 이미지" />
-        <DecorativeImage src="f19b7.svg" className="leaf about-leaf-one" />
-        <DecorativeImage src="17ad2.svg" className="leaf about-leaf-two" />
-        <DecorativeImage src="30249.svg" className="leaf about-leaf-three" />
-        <DecorativeImage src="455f7.svg" className="bubble a-bubble-one" />
-        <DecorativeImage src="00bde.svg" className="bubble a-bubble-two" />
-        <span className="pure-for-you">Pure for you</span>
-      </div>
-    </section>
-  );
-}
+
 
 function Products({ openModal }: { openModal: (content: ModalContent) => void }) {
   return (
