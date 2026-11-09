@@ -197,7 +197,6 @@ function Hero({ openModal }: { openModal: (content: ModalContent) => void }) {
         </div>
       </div>
       <div className="hero-art" aria-label={`${current.product.replace("\n", " ")} 제품 이미지`}>
-        <img src="/assets/ main.png" className="hero-main-image" alt="화장품 메인 이미지" />
         <DecorativeImage src="61582.svg" className="hero-glow" />
         <DecorativeImage src="49720.svg" className="hero-reflection" />
         <DecorativeImage src="d1149.svg" className="leaf hero-leaf-one" />
@@ -245,7 +244,7 @@ function About({ openModal }: { openModal: (content: ModalContent) => void }) {
         }
       />
       <div className="about-art">
-        <DecorativeImage src="6b1c0.svg" className="about-oval" />
+        <img src="/assets/ main.png" className="hero-main-image" alt="화장품 메인 이미지" />
         <DecorativeImage src="f19b7.svg" className="leaf about-leaf-one" />
         <DecorativeImage src="17ad2.svg" className="leaf about-leaf-two" />
         <DecorativeImage src="30249.svg" className="leaf about-leaf-three" />
